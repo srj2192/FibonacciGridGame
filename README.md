@@ -1,4 +1,4 @@
-# Fibonacci grid game
+# Fibonacci Grid game
 
 
 🎯 Core Features: The core feature on the frontend involves designing a 50x50 grid interface. Each cell in the grid is interactive and can take on a value (the default value is 0). When a user clicks on any particular cell, the values in all the cells present in the same row and column get incremented by 1. If the cell was empty, it should now have a value of 1.
@@ -34,8 +34,3 @@ It docker application have all started, then visit http://localhost:3000/ to vie
     Respository will sepearte the Data access logic 
 
     Service will seprate the Business logic
-
-# Improvement or Limitation in the approach due to short duration for the task
-
-* Docker run currently takes some time to run, I haven't had the time to improve it. The cause is mostly due to yarn dependencies in react app.
-* I have hard coded grid id in the backend endpoint, this could be improved or for this current implementation can also be removed. I added it considering seperate grid based on user id but later realized that could be an overkill.
